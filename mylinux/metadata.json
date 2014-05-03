@@ -1,0 +1,19 @@
+{
+  "author": "",
+  "checksums": {
+    "files/.bashrc": "4e1831f318f7faefe87fee4be64b6f24",
+    "manifests/init.pp": "7b2f4a21c8b4560e10998c619d8a4bd9",
+    "manifests/run.pp": "743f08f26a583ab83de9b65a11e42c84",
+    "files/.bash_aliases": "2ce54335b277c3ae99cb2346f837f445",
+    "Modulefile": "8248a948b76b44ccaf3367928222974e"
+  },
+  "dependencies": [],
+  "description": "",
+  "license": "",
+  "name": "mylinux",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "types": [],
+  "version": "1.0.0"
+}

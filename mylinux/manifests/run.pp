@@ -1,0 +1,2 @@
+class {'mylinux':}
+#notify{"${::id}":}
