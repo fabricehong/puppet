@@ -5,3 +5,4 @@ alias lg="git log"
 alias gk=gitk
 alias gka="gitk --all"
 alias gco="git checkout"
+alias com="git commit -a -m "
