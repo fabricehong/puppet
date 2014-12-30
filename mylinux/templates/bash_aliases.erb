@@ -2,7 +2,7 @@ if [ -f ~/.bash_aliases_functions ]; then
     . ~/.bash_aliases_functions
 fi
 
-<% for id in modules %>
+<% for id in mods %>
 if [ -f ~/.bash_aliases_<%= id %> ]; then
     . ~/.bash_aliases_<%= id %>
 fi

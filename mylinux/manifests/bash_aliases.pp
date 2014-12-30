@@ -1,4 +1,4 @@
-class bash_aliases ($modules) {
+class bash_aliases ($mods) {
   file { "/home/${::id}/.bash_aliases":
     ensure  => present,
     content => template('mylinux/bash_aliases.erb')
@@ -6,7 +6,7 @@ class bash_aliases ($modules) {
 
   bash_module { 'functions': }
 
-  bash_module { $modules: category => 'aliases' }
+  bash_module { $mods: category => 'aliases' }
 }
 
 define bash_module ($category = undef) {

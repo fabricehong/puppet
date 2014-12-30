@@ -1,6 +1,6 @@
-$modules = ['common', 'git', 'home']
+$mods = ['common', 'git', 'home']
 
 class { 'mylinux':
-  modules => $modules
+  mods => $mods
 }
 # notify{"${::id}":}

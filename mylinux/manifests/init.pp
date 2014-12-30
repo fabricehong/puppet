@@ -1,7 +1,7 @@
-class mylinux ($modules) {
+class mylinux ($mods) {
   
 
   class { 'bash_aliases':
-    modules => $modules
+    mods => $mods
   }
 }
