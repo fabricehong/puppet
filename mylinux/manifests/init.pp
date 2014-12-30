@@ -1,10 +1,7 @@
-class mylinux {
-  file{"/home/${::id}/.bashrc":
-    ensure => present,
-    source => 'puppet:///modules/mylinux/.bashrc'
+class mylinux ($modules) {
+  
+
+  class { 'bash_aliases':
+    modules => $modules
   }
-	file{"/home/${::id}/.bash_aliases":
-	    ensure => present,
-	    source => 'puppet:///modules/mylinux/.bash_aliases'
-	  }   
 }

@@ -1,0 +1,7 @@
+alias gb="git branch"
+alias st="git status"
+alias gb="git branch"
+alias lg="git log"
+alias gk=gitk
+alias gka="gitk --all"
+alias gco="git checkout"

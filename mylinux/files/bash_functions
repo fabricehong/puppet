@@ -1,0 +1,35 @@
+function plant {
+cd ~/plantUml
+./start.sh &
+n
+if [ -n "$1" ];
+then
+	gedit $1.pu
+        return
+fi
+}
+
+function com {
+if [ -z "$1" ];
+then
+	echo "you must provide a message for commiting"
+	return
+fi
+echo "git add ."
+git add .
+echo "git commit -a -m \"$1\""
+git commit -a -m "$1"
+}
+
+function fetch {
+wget --user=admin --ask-password --proxy=off $@
+}
+
+function r {
+grep -R $1 *
+}
+
+
+function go {
+ssh ahong@$1.nespresso.com
+}

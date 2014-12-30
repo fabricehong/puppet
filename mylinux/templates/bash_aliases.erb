@@ -1,0 +1,21 @@
+if [ -f ~/.bash_aliases_functions ]; then
+    . ~/.bash_aliases_functions
+fi
+
+<% for id in modules %>
+if [ -f ~/.bash_aliases_<%= id %> ]; then
+    . ~/.bash_aliases_<%= id %>
+fi
+<% end -%>
+
+alias aliases="vi ~/.bash_aliases"
+
+alias n="nautilus ."
+alias mvni="mvn clean install"
+alias lsa="ls -la"
+alias aptprox="sudo cp /etc/apt/apt.conf.proxy /etc/apt/apt.conf"
+alias srcb=". ~/.bashrc"
+alias cqlogs="less /home/fabrice/Nespresso/cq/crx-quickstart/logs/error.log"
+alias rinstall='r10k -v info puppetfile install'
+alias r10up="r10k -v info puppetfile install"
+alias vltdl="/home/fabrice/Nespresso/dev/cq5/nesclub3-front-local-boostrap/export-content.sh"
