@@ -1,0 +1,3 @@
+alias cdcqi="cd /home/fabrice/prog/cq/instance"
+alias cdpl="cd /home/fabrice/prog/fab/puppet/mylinux"
+alias cdds="cd /home/fabrice/prog/cq/dev/demo-site"
