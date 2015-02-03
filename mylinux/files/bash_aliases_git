@@ -4,5 +4,6 @@ alias gb="git branch"
 alias lg="git log"
 alias gk=gitk
 alias gka="gitk --all"
+alias gitg="git gui"
 alias gco="git checkout"
 alias com="git commit -a -m "
