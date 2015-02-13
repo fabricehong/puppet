@@ -1,4 +1,4 @@
-$mods = ['common', 'git', 'home']
+$mods = ['common', 'git', 'liip']
 
 class { 'mylinux':
   mods => $mods

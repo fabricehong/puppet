@@ -1,7 +1,7 @@
 alias cdcqi="cd /home/fabrice/liip/cq/instance"
 alias cdpl="cd /home/fabrice/liip/fab/puppet/mylinux"
 alias cdds="cd /home/fabrice/liip/dev/cq/aem-demosite"
-alias cddsc="cd /home/fabrice/liip/dev/cq/aem-demosite/demosite-content/src/main/content/jcr_root"
+alias cddsc="cd /home/fabrice/liip/dev/cq/aem-demosite/demosite-ui/src/main/content/jcr_root"
 alias vlts="vlt st"
 alias vltu="vlt update"
 alias vltc="vlt ci *"
