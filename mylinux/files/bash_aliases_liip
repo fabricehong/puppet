@@ -5,4 +5,7 @@ alias cddsc="cd /home/fabrice/liip/dev/cq/aem-demosite/demosite-ui/src/main/cont
 alias vlts="vlt st"
 alias vltu="vlt update"
 alias vltc="vlt ci *"
+alias vltco="vlt --credentials admin:admin co --force http://localhost:4502/crx"
 alias mvndsi="mvn clean install -PinstallPackage"
+alias vltrm="find . -name "*.vlt" -type f -delete"
+alias vltrt="cdds && mvni && cddsc && vltrm && vltco"
