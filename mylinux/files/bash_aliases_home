@@ -6,7 +6,7 @@ alias cddicop="cd /home/fabrice/prog/php/dicoDesAvocats/parser"
 alias cdpl="cd /home/fabrice/puppet-projects/mylinux"
 
 alias cdcqi="cd /media/fabrice/linuxData/liip/cq/instance"
-alias cdpl="cd /media/fabrice/linuxData/liip/fab/puppet/mylinux"
+alias cdpl="cd /home/fabrice/puppet-projects/mylinux"
 alias cdds="cd /media/fabrice/linuxData/liip/dev/cq/aem-demosite"
 alias cddsc="cd /media/fabrice/linuxData/liip/dev/cq/aem-demosite/content/src/main/content/jcr_root"
 alias vlts="vlt st"
