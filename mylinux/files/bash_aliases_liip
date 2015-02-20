@@ -1,4 +1,4 @@
-liipRoot="$liipRoot"
+liipRoot="/home/fabrice/liip"
 
 alias cdcqi="cd $liipRoot/cq/instance"
 alias cdpl="cd $liipRoot/fab/puppet/mylinux"
