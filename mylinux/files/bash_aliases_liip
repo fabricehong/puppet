@@ -20,4 +20,5 @@ alias javarunoa="java -jar oak-run-1.1-SNAPSHOT.jar"
 alias javarunoad="java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005 -jar oak-run-1.1-SNAPSHOT.jar"
 alias runoa="cdoar && javarunoa"
 alias runoad="cdoar && javarunoad"
+alias gocqdev="ssh liip@jenkins.liip.ch -p 22111"
 
