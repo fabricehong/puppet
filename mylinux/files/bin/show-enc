@@ -1,0 +1,15 @@
+#!/bin/bash
+if test "$#" -ne 2;  then 
+    echo "Illegal number of parameters. Usage : show-enc ENCRYPTED_ROOT_RDIR FOLDER_NAME"
+    exit 1
+fi
+
+ENCRYPTED_ROOT_DIR=$1
+FOLDER=$2
+
+DECRYPTED_FOLDER="/home/fabrice/${FOLDER}"
+ENCRYPTED_FOLDER="${ENCRYPTED_ROOT_DIR}/.${FOLDER}_encfs"
+
+mkdir -p $DECRYPTED_FOLDER
+encfs --extpass=ssh-askpass "${ENCRYPTED_FOLDER}" "${DECRYPTED_FOLDER}"
+nautilus "${DECRYPTED_FOLDER}"
