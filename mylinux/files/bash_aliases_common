@@ -1,1 +1,2 @@
 alias cddl="cd ~/Downloads"
+alias killIdeaKeyb="ibus-daemon -rd"
