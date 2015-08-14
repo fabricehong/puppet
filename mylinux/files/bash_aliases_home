@@ -21,4 +21,4 @@ alias cquinstds="curl 'http://localhost:4502/crx/packmgr/service/.json/etc/packa
 alias cqrmds="curl 'http://localhost:4502/crx/packmgr/service/.json/etc/packages/Liip%20AG/demosite-ui-1.0-SNAPSHOT.zip' --user admin:admin --data 'cmd=delete'"
 alias vltrt="cquinstds && cqrmds && cdds && mvndsi && cddsc && vltrm && vltco && cdds && ./clean-content-xml.sh"
 alias cdrje="cd /media/fabrice/linuxData/liip/dev/cq/jcr-extractor"
-alias cdrje="cd /home/fabrice/prog/GaRawDataReader"
+alias cdga="cd /home/fabrice/prog/GaRawDataReader"
