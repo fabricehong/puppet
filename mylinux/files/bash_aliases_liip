@@ -24,4 +24,4 @@ alias mvnoas="cdoa && mvn clean install -pl oak-remote/ -amd -DskipTests && runo
 alias gocqdev="ssh liip@jenkins.liip.ch -p 22111"
 alias cdrjes="cd '/home/fabrice/liip/project/jcr extractor/specs'"
 alias cdrje="cd /home/fabrice/liip/dev/cq/jcr-extractor"
-alias cdcss="cd /home/fabrice/liip/workshop/css-workshop/assets/sass"
+alias cdga="cd /home/fabrice/liip/dev/GaRawDataReader/ga-raw-data-reader"
